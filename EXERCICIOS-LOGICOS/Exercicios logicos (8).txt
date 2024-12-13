@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Fernanda Nalon 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thais
+// Data atual  : 13/12/2024
+Var
+// Seção de Declarações das variáveis 
+vendidos, fixo, comissao, salario_final, total_vendas: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Digite a quantidade de carros vendidos: ")
+leia (vendidos)
+escreva ("Digite o valor das vendas: ")
+leia (total_vendas)
+escreva ("Digite o salario fixo: ")
+leia (fixo)
+escreva ("Digite a comissao por venda: ")
+leia (comissao)
+
+salario_final <- fixo + (vendidos * comissao) + (total_vendas * 0.05)
+
+escreva ("O salario final é de: ", salario_final)
+
+
+Fimalgoritmo

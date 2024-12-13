@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Fernanda Nalon 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thais
+// Data atual  : 13/12/2024
+Var
+// Seção de Declarações das variáveis 
+base, area, alt: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Escreva a base do retangulo: ")
+leia (base)
+escreva ("Escreva a altura do retangulo: ")
+leia (alt)
+
+area <- base*alt
+
+escreva ("A area do retangulo é", area)
+
+Fimalgoritmo

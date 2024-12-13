@@ -1,0 +1,33 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Fernanda Nalon 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thais
+// Data atual  : 13/12/2024
+Var
+// Seção de Declarações das variáveis 
+eleitores, vbrancos, vnulos, vvalidos: inteiro
+perbrancos, pernulos, pervalidos: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Digite o total de eleitores: ")
+leia (eleitores)
+escreva ("Digite o total de votos brancos: ")
+leia (vbrancos)
+escreva ("Digite o total de votos nulos: ")
+leia (vnulos)
+escreva ("Digite o total de votos validos: ")
+leia (vvalidos)
+
+perbrancos <- (vbrancos / eleitores) *100
+
+pernulos <- (vnulos / eleitores) *100
+
+pervalidos <- (vvalidos / eleitores) *100
+
+escreva ("Percentual de votos brancos é de: ", perbrancos "%")
+escreva ("Percentual de votos nulos é de: ", pernulos "%")
+escreva ("Percentual de votos validos é de: ", pervalidos "%")
+
+Fimalgoritmo

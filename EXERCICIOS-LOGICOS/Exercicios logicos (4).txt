@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Fernanda Nalon 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thais
+// Data atual  : 13/12/2024
+Var
+// Seção de Declarações das variáveis 
+anos, meses, dias, idade_dias: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Digite os anos: ")
+leia (anos)
+escreva ("Digite os meses: ")
+leia (meses)
+escreva ("Digite os dias: ")
+leia (dias)
+
+idade_dias <- (anos*365) + (meses*30) + dias
+
+escreva ("Idade em dias é:", idade_dias)
+
+Fimalgoritmo

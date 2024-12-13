@@ -1,0 +1,20 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Fernanda Nalon 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thais
+// Data atual  : 13/12/2024
+Var
+// Seção de Declarações das variáveis 
+valor, atecessor: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Escreva um valor: ")
+leia (valor)
+
+antecessor <- valor-1
+
+escreva ("O antecessor de ",valor, "é", antecessor)
+
+Fimalgoritmo

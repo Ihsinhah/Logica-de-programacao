@@ -1,0 +1,20 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Fernanda Nalon 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thais
+// Data atual  : 13/12/2024
+Var
+// Seção de Declarações das variáveis 
+atual, reajuste, novo: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Digite o salario atual: ")
+leia (atual)
+escreva ("Digite o percentual do reajuste: ")
+leia (reajuste)
+novo <- atual + (atual * reajuste /100)
+escreva ("O novo salario é de:", novo)
+
+Fimalgoritmo

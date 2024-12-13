@@ -1,0 +1,19 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Fernanda Nalon 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thais
+// Data atual  : 13/12/2024
+Var
+// Seção de Declarações das variáveis 
+fabrica, final: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Digite o custo de fabrica do carro: ")
+leia (fabrica)
+
+final <- fabrica + (fabrica * 0.28) + (fabrica * 0.45)
+
+escreva ("O custo final do carro é de: ", final)
+Fimalgoritmo
