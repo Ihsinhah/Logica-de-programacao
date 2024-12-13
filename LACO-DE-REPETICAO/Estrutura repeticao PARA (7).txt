@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Fernanda Nalon 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Thais
+// Data atual  : 13/12/2024
+Var
+// Seção de Declarações das variáveis 
+cont, soma: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+para cont de 1 ate 100 passo 1 faca
+soma <- soma + cont
+fimpara
+escreva ("A soma é: ", quad)
+
+
+
+
+Fimalgoritmo
+
